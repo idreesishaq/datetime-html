@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <time>May 17</time>
+    <h2>Or like this with the year</h2>
+    <time>May 17, 2024</time>
+
+    <time>17 May 2024</time>
+
+    <time>on the 17th of May next year</time>
+
+    <!-- whatever time format we write between the time tag
+    but we neet to write the time in a specific format which is
+    a machine readable format under the "datetime" attribute of time tag -->
+    <time datetime="2024-02-17">Feb 17, 2024</time>
+
+    <h2>Format of Datatime: YYYY-MM-DD</h2>
+    <h3>The Year in 4 Digit</h3>
+    <h3>Then the Month in 2 Digit</h3>
+    <h3>and Date in 2 Digit</h3>
+
+
+    <h2>We also give time in time tag in any formate but in datetime attribute 24 hour clock format.</h2>
+    <time datetime="07:00">7:00 am</time>
+    <time datetime="20:15">8:15 pm</time>
+    <time datetime="12:30">half past noon</time>
+
+
+    <h2>We can include second, and fractions of seconds and also include time zone</h2>
+    <h2>TIME: hh-mm-ss.ddd</h2>
+    <h2>TIME: hh-mm-ss.ddd+-hh:mm</h2>
+    <time datetime ="15:45-05:00"> 3:45pm in New York</time>
+
+    <h2>We can use date time together. Date comes then the time. We can put a T between the date and time</h2>
+    <time datetime="2020-11-04T19:00"> Wednesday, Nov 4th at 7pm</time>
+    
+    <h2> or we can put a space there.</h2>
+    <time datetime="2020-11-04 19:00-0500"> Wednesday, Nov 4th at 7pm</time>
+
+ </body>
+ </html>
